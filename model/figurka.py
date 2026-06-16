@@ -1,16 +1,9 @@
 class Figurka:
     def __init__(self):
-        self.pozice = []#asi nebude potřeba - spíš to bude mít class HerniPlocha
         self.barva = int #-1 a 1
         self.vektor = [] #pohybový vektor
         self.vektor_utok = [] #útočný vektor
         self.skok = False
-
-    def get_pozice(self):
-        pass
-
-    def posun_figurky(pozice, vektor):
-        pozice + vektor
 
 class Dama(Figurka):
     def __init__(self):
