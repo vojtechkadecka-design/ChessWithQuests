@@ -7,8 +7,8 @@ from model.game_timer import GameTimer
 class GameManager:
     def __init__(self):
         self.plocha(HerniPlocha)
-        self.aktivni_hrac
-        self.hraci
+        self.aktivni_hrac = int
+        self.hraci = []
         self.aktualni_tah(Tah)
         self.casovac(GameTimer)
         self.game_logger(GameLogger)

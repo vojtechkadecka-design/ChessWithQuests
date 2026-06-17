@@ -8,7 +8,7 @@ class Uzivatel:
         self.email = ""
         self.elo = int
         self.splnene_kwesty = []
-        self.kwest(Kwest) = void
+        self.kwest(Kwest)
 
     def pridej_kwest(self):
         pass

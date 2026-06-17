@@ -3,8 +3,8 @@ from model.tah import Tah
 
 class RevizorTahu:
     def __init__(self):
-        self.herni_plocha(HerniPlocha())
-        self.tah(Tah())
+        self.herni_plocha(HerniPlocha)
+        self.tah(Tah)
 
     def simulate_Move(self):
         pass

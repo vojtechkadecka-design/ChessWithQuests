@@ -4,7 +4,7 @@ from model.figurka import Figurka
 class Tah:
     def __init__(self):
         self.vychozi_pozice = [()]
-        self.cilova_pozice = (())
+        self.cilova_pozice = [()]
         self.figurka(Figurka)
         self.typ_tahu = ""
 
