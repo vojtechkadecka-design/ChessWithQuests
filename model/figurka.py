@@ -12,6 +12,7 @@ class Figurka:
             for k in range(1, max_kroku + 1):  # pro k = 1, 2, ..., 7
                 vysledek.append((radek * k, sloupec * k))   #vynásobí směrový vektor všemi možnými kroky (takže až 7krát)
         return vysledek
+
     SMERY_VEZ = [(0, 1), (0, -1), (1, 0), (-1, 0)]
     SMERY_STRELEC = [(1, 1), (1, -1), (-1, 1), (-1, -1)]
 #obecné pohybové vektory, které budou násobeny počtem kroků
