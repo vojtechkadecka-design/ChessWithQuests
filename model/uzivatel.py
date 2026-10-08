@@ -1,14 +1,10 @@
-from model.Kwest import Kwest
-
-
 class Uzivatel:
-    def __init__(self):
-        self.uzivatelske_jmeno = ""
-        self.jmeno = ""
-        self.email = ""
-        self.elo = int
-        self.splnene_kwesty = []
-        self.kwest(Kwest)
+    def __init__(self, uzivatelske_jmeno, jmeno="", email="", elo=1000):
+        self.uzivatelske_jmeno = uzivatelske_jmeno
+        self.jmeno = jmeno
+        self.email = email
+        self.elo = elo
+        self.splnene_kwesty = []   # systém questů není součástí tohoto zadání
 
-    def pridej_kwest(self):
-        pass
+    def pridej_quest(self, quest):
+        self.splnene_kwesty.append(quest)

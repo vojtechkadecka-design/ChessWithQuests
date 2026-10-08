@@ -1,13 +1,15 @@
-from model.tah import Tah
-
-
 class GameLogger:
     def __init__(self):
-        self.tah(Tah)
-        self.soubor()  #?
+        self.soubor = None
 
-    def uloz_tah(self):
-        pass
+    def vytvor_soubor(self, nazev: str) -> None:
+        self.soubor = nazev
+        with open(self.soubor, "w", encoding="utf-8") as f:
+            f.write("Zápis partie\n")
 
-    def vytvor_soubor(self):
-        pass
+    def uloz_tah(self, tah) -> None:
+        if self.soubor is None:
+            self.vytvor_soubor("partie.log")
+        zapis = f"{tah.figurka.nazev} {tah.vychozi_pozice} -> {tah.cilova_pozice}\n"
+        with open(self.soubor, "a", encoding="utf-8") as f:
+            f.write(zapis)
