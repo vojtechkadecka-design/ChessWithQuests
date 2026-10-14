@@ -9,7 +9,12 @@ Barva: 1 = bílý hráč, -1 = černý hráč (podle poznámky v class diagramu)
 def _nasobky(smery, max_kroku=7):
     """Ke každému směru vytvoří vektory o 1 až max_kroku polí (pro figurky,
     které se posouvají po přímce o libovolný počet polí)."""
-    return [(dr * k, ds * k) for dr, ds in smery for k in range(1, max_kroku + 1)]
+    vysledek = []
+    for dr, ds in smery:
+        for k in range(1, max_kroku + 1):
+            novy_vektor = (dr * k, ds * k)
+            vysledek.append(novy_vektor)
+    return vysledek
 
 
 SMERY_VEZ = [(0, 1), (0, -1), (1, 0), (-1, 0)]
@@ -96,7 +101,8 @@ class Dama(Figurka):
 
 class Pesak(Figurka):
     """Pěšák. Vektory jsou definované jako pro bílého hráče (barva = 1) a při
-    použití se vynásobí barvou (self.barva)"""
+    použití se vynásobí barvou (self.barva) - přesně podle poznámky v diagramu
+    ('Pro pěšáka se vektor vynásobí barvou')."""
 
     def __init__(self, barva):
         super().__init__(barva)

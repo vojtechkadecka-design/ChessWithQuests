@@ -66,6 +66,7 @@ class GameManager:
             return False
 
         tah.proved_tah(self.plocha)
+        self.aktualni_tah = tah       # nezávisle na tom, jak byl 'tah' získán
         self.revizor_tahu.tah = tah
         self.uloz_log()
         self.aktivni_hrac = 1 - self.aktivni_hrac
