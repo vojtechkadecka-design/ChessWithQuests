@@ -35,7 +35,7 @@ def pixel_z_souradnic(radek, sloupec, velikost_pole=VELIKOST_POLE):
 
 def je_svetle_pole(radek, sloupec):
     return (radek + sloupec) % 2 == 1
-
+    # % je modulus, vrací hodnotu zbytku po dělení
 
 class TkinterView:
     """Grafické zobrazení šachovnice přes Tkinter. Místo psaní tahu do

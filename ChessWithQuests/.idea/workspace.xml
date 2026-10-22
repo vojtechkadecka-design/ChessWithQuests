@@ -1,4 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="ChangeListManager">
+    <list default="true" id="653f2794-ae37-433e-bdde-b8b21f2bc533" name="Changes" comment="Přidání grafiky přes Tkinter">
+      <change beforePath="$PROJECT_DIR$/.idea/ChessWithQuests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ChessWithQuests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/game_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/game_manager.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vojtechkadecka-design&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vojtechkadecka-design/ChessWithQuests.git&quot;,
+    &quot;accountId&quot;: &quot;91e12ba6-c51b-477e-af86-4866909b9bbe&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3Kh8hFx5aMA1mAOVyQwXcWLMGoH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.spustit_hru.executor": "Run",
+    "Python.spustit_hru_gui.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vojta\PycharmProjects\ChessWithQuests\odklad" />
+      <recent name="C:\Users\vojta\PycharmProjects\ChessWithQuests\View" />
+      <recent name="C:\Users\vojta\PycharmProjects\ChessWithQuests" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="653f2794-ae37-433e-bdde-b8b21f2bc533" name="Changes" comment="" />
+      <created>1791998557565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791998557565</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Přidání grafiky přes Tkinter">
+      <option name="closed" value="true" />
+      <created>1791998581401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791998581401</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Přidání grafiky přes Tkinter">
+      <option name="closed" value="true" />
+      <created>1791998627474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791998627474</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Přidání grafiky přes Tkinter">
+      <option name="closed" value="true" />
+      <created>1791998663874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791998663874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Přidání grafiky přes Tkinter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Přidání grafiky přes Tkinter" />
+  </component>
 </project>

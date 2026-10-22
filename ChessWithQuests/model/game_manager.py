@@ -24,7 +24,7 @@ class GameManager:
 
     def zacni_tah(self) -> Tah:
         """Založí nový (zatím prázdný) tah pro hráče, který je právě na tahu.
-        Volající (viz main.py) poté na vráceném objektu nastaví
+        Volající poté na vráceném objektu nastaví
         vychozi_pozice, cilova_pozice a figurka - teprve pak ho lze předat
         do proved_tah()."""
         self.aktualni_tah = Tah(None, None, None)
@@ -52,9 +52,7 @@ class GameManager:
         return vysledek
 
     def proved_tah(self, tah: Tah) -> bool:
-        """V diagramu není popsáno, jak se vybraný tah skutečně provede a
-        předá na tahu dalšímu hráči - tuhle metodu jsem proto musel přidat.
-        Provede tah, pokud je mezi možnými tahy aktivního hráče, zaloguje ho
+        """Provede tah, pokud je mezi možnými tahy aktivního hráče, zaloguje ho
         a předá tah druhému hráči."""
         if tah.figurka is None or tah.vychozi_pozice is None or tah.cilova_pozice is None:
             return False
